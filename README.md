@@ -7,7 +7,7 @@ Auto script to make ssh tunnel between 2 server with related system file and cro
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-!! INSTRUCTION !!
+‼️ INSTRUCTION ‼️
  - root previllage
  - update & upgrade server
 
