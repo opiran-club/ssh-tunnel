@@ -26,9 +26,6 @@ if [ "$EUID" -ne 0 ]; then
     exit 1
 fi
 
-# Trap Ctrl+C to freeze title
-trap freeze_title SIGINT
-
 # Clear the screen and freeze the title
 clear
 title_length=62  # Adjust this value as needed
