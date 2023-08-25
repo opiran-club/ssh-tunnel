@@ -13,7 +13,7 @@ Auto script to make ssh tunnel between 2 server with related system file and cro
  - Install curl ( apt/yum install curl -y )
 
 ```
- bash <(curl -s https://raw.githubusercontent.com/opiran-club/ssh-tunnel/main/direct-tunnel.sh --ipv4)
+wget -4 https://raw.githubusercontent.com/opiran-club/ssh-tunnel/main/opiran-sshtunnel && chmod +x opiran-sshtunnel && ./opiran-sshtunnel
 ```
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
