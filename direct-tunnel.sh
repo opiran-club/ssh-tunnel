@@ -21,16 +21,18 @@ if [ "$EUID" -ne 0 ]; then
     exit 1
 fi
 
-# Clear the screen and freeze the title
-clear
-title_length=62  # Adjust this value as needed
+# Calculate title width and padding
 title_text="Create By OPIran\nTG-Group @OPIranCluB"
-title_spaces=$(( (title_length - ${#title_text}) / 2 ))
+term_width=$(tput cols)
+title_width=${#title_text}
+padding=$(( (term_width - title_width) / 2 ))
 
-echo -e "${BLUE}$(printf '~%.0s' $(seq 1 $title_spaces))${NC}"
-echo -e "          ${YELLOW}Create By${NC} ${GREEN} OPIran${NC}"
-echo -e "             ${YELLOW}TG-Group${NC} ${GREEN} @OPIranCluB${NC}"
-echo -e "${BLUE}$(printf '~%.0s' $(seq 1 $title_spaces))${NC}"
+# Display the floating title
+echo -ne "${BLUE}"
+for ((i = 0; i < padding; i++)); do echo -n " "; done
+echo -e "${title_text}"
+for ((i = 0; i < padding; i++)); do echo -n " "; done
+echo -e "${NC}"
 
 # Prompt for destination port
 echo -ne "${CYAN}Enter the destination port (SSH / V2ray) (service on your foreign VPS):${NC} "
