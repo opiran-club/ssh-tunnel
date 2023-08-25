@@ -55,17 +55,15 @@ read remote_user
 echo -ne "${YELLOW}Give me the path of this script (ex. /etc/direct-tunnel.sh):${NC} "
 read path
 
-# Check if SSH key authentication is already set up
-if ! ssh-add -l &> /dev/null; then
-    # Try to load the SSH key
-    if ! ssh-add ~/.ssh/id_rsa &> /dev/null; then
-        echo -e "${RED}Could not load the SSH key. Make sure it's in the default location (~/.ssh/id_rsa).${NC}"
-        exit 1
-    fi
+# Check if SSH key pair exists
+if [ ! -f ~/.ssh/id_rsa ]; then
+    echo -e "${YELLOW}Generating SSH key pair...${NC}"
+    ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa -N ""
 fi
 
-# Copy SSH key to remote server for passwordless authentication
+# Copy SSH public key to remote server for passwordless authentication
 ssh-copy-id ${remote_user}@${ip_kharej}
+echo -e "${GREEN}SSH public key save to remote server successfully${NC}"
 
 # Set up SSH tunnel command
 ssh_tunnel_command="ssh -N -L *:${port_tunnel}:localhost:${port_config_kharej} ${remote_user}@${ip_kharej}"
