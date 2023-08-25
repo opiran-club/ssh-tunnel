@@ -9,11 +9,6 @@ BLUE="\e[34m"
 NC="\e[0m"
 WHITE="\e[0m"
 
-# Function to freeze title
-freeze_title() {
-    echo -ne "\033[0;0H"
-}
-
 # Function to continue after pressing Enter
 press_enter() {
     echo -e "\n ${RED}Press Enter to continue... ${NC}"
@@ -37,20 +32,25 @@ echo -e "          ${YELLOW}Create By${NC} ${GREEN} OPIran${NC}"
 echo -e "             ${YELLOW}TG-Group${NC} ${GREEN} @OPIranCluB${NC}"
 echo -e "${BLUE}$(printf '~%.0s' $(seq 1 $title_spaces))${NC}"
 
-# Prompt for port_config_kharej
-read -p "${CYAN}Enter the destination port (SSH / V2ray) (service on your foreign VPS):${NC} " port_config_kharej
+# Prompt for destination port
+echo -ne "${CYAN}Enter the destination port (SSH / V2ray) (service on your foreign VPS):${NC} "
+read port_config_kharej
 
-# Prompt for ip_kharej
-read -p "${CYAN}Enter the destination IP address (2nd VPS or Foreign VPS):${NC} " ip_kharej
+# Prompt for destination IP address
+echo -ne "${CYAN}Enter the destination IP address (2nd VPS or Foreign VPS):${NC} "
+read ip_kharej
 
-# Prompt for port_tunnel
-read -p "${CYAN}Enter the source port for tunnel (Local VPS):${NC} " port_tunnel
+# Prompt for source port
+echo -ne "${CYAN}Enter the source port for tunnel (Local VPS):${NC} "
+read port_tunnel
 
-# Prompt for remote username
-read -p "${CYAN}Enter the destination username (e.g., root):${NC} " remote_user
+# Prompt for destination username
+echo -ne "${CYAN}Enter the destination username (e.g., root):${NC} "
+read remote_user
 
-# Prompt for remote username
-read -p "${CYAN}Give me the path of this script (ex. /etc/direct-tunnel.sh):${NC} " path
+# Prompt for script path
+echo -ne "${CYAN}Give me the path of this script (ex. /etc/direct-tunnel.sh):${NC} "
+read path
 
 # Set up SSH tunnel command
 ssh_tunnel_command="ssh -N -L *:${port_tunnel}:localhost:${port_config_kharej} ${remote_user}@${ip_kharej}"
