@@ -8,9 +8,9 @@ Auto script to make ssh tunnel between 2 server with related system file and cro
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ‼️ INSTRUCTION ‼️
- - root previllage (sudo -i)
- - update & upgrade server (apt/yum update)
- - Install curl (apt/yum install curl -y)
+ - root previllage ( sudo -i )
+ - update & upgrade server ( apt/yum update )
+ - Install curl ( apt/yum install curl -y )
 
 ```
  bash <(curl -s https://raw.githubusercontent.com/opiran-club/ssh-tunnel/main/direct-tunnel.sh --ipv4)
