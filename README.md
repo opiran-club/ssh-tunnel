@@ -12,14 +12,14 @@ Auto script to make ssh tunnel between 2 server with related system file and cro
  - update & upgrade server ( apt/yum update )
  - Install curl ( apt/yum install curl -y )
 
-Ubuntu & Debian
+‼️ Ubuntu & Debian
 
 ```
 apt install shc && wget -4 https://raw.githubusercontent.com/opiran-club/ssh-tunnel/main/opiran-sshtunnel && chmod +x opiran-sshtunnel && ./opiran-sshtunnel
 ```
 
 
-Centos
+‼️ Centos
 
 ```
 yum install shc && wget -4 https://raw.githubusercontent.com/opiran-club/ssh-tunnel/main/opiran-sshtunnel && chmod +x opiran-sshtunnel && ./opiran-sshtunnel
