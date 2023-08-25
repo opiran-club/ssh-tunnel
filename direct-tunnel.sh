@@ -22,6 +22,7 @@ if [ "$EUID" -ne 0 ]; then
 fi
 
 # Calculate title width and padding
+clear
 title_text="Create By OPIran\nTG-Group @OPIranCluB"
 term_width=$(tput cols)
 title_width=${#title_text}
@@ -35,27 +36,24 @@ for ((i = 0; i < padding; i++)); do echo -n " "; done
 echo -e "${NC}"
 
 # Prompt for destination port
-echo -ne "${CYAN}Enter the destination port (SSH / V2ray) (service on your foreign VPS):${NC} "
+echo -ne "${YELLOW}Enter the destination port (SSH / V2ray) (service on your foreign VPS):${NC} "
 read port_config_kharej
 
 # Prompt for destination IP address
-echo -ne "${CYAN}Enter the destination IP address (2nd VPS or Foreign VPS):${NC} "
+echo -ne "${YELLOW}Enter the destination IP address (2nd VPS or Foreign VPS):${NC} "
 read ip_kharej
 
 # Prompt for source port
-echo -ne "${CYAN}Enter the source port for tunnel (Local VPS):${NC} "
+echo -ne "${YELLOW}Enter the source port for tunnel (Local VPS):${NC} "
 read port_tunnel
 
 # Prompt for destination username
-echo -ne "${CYAN}Enter the destination username (e.g., root):${NC} "
+echo -ne "${YELLOW}Enter the destination username (e.g., root):${NC} "
 read remote_user
 
 # Prompt for script path
-echo -ne "${CYAN}Give me the path of this script (ex. /etc/direct-tunnel.sh):${NC} "
+echo -ne "${YELLOW}Give me the path of this script (ex. /etc/direct-tunnel.sh):${NC} "
 read path
-
-# Set up SSH tunnel command
-ssh_tunnel_command="ssh -N -L *:${port_tunnel}:localhost:${port_config_kharej} ${remote_user}@${ip_kharej}"
 
 # Check if SSH key authentication is already set up
 if ! ssh-add -l &> /dev/null; then
@@ -68,6 +66,9 @@ fi
 
 # Copy SSH key to remote server for passwordless authentication
 ssh-copy-id ${remote_user}@${ip_kharej}
+
+# Set up SSH tunnel command
+ssh_tunnel_command="ssh -N -L *:${port_tunnel}:localhost:${port_config_kharej} ${remote_user}@${ip_kharej}"
 
 # Run the SSH tunnel command
 echo -e "${GREEN}Setting up SSH tunnel...${NC}"
