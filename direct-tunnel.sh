@@ -31,10 +31,14 @@ trap freeze_title SIGINT
 
 # Clear the screen and freeze the title
 clear
-echo -e "${BLUE}~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~${NC}"
+title_length=62  # Adjust this value as needed
+title_text="Create By OPIran\nTG-Group @OPIranCluB"
+title_spaces=$(( (title_length - ${#title_text}) / 2 ))
+
+echo -e "${BLUE}$(printf '~%.0s' $(seq 1 $title_spaces))${NC}"
 echo -e "          ${YELLOW}Create By${NC} ${GREEN} OPIran${NC}"
 echo -e "             ${YELLOW}TG-Group${NC} ${GREEN} @OPIranCluB${NC}"
-echo -e "${BLUE}~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~${NC}"
+echo -e "${BLUE}$(printf '~%.0s' $(seq 1 $title_spaces))${NC}"
 
 # Prompt for port_config_kharej
 read -p "${CYAN}Enter the destination port (SSH / V2ray) (service on your foreign VPS):${NC} " port_config_kharej
