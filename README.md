@@ -15,14 +15,14 @@ Auto script to make ssh tunnel between 2 server with related system file and cro
 ‼️ Ubuntu & Debian
 
 ```
-apt install shc && wget -4 https://raw.githubusercontent.com/opiran-club/ssh-tunnel/main/opiran-sshtunnel && chmod +x opiran-sshtunnel && ./opiran-sshtunnel
+apt install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-tunnel/main/opiran-sshtunnel && chmod +x opiran-sshtunnel && ./opiran-sshtunnel
 ```
 
 
 ‼️ Centos
 
 ```
-yum install shc && wget -4 https://raw.githubusercontent.com/opiran-club/ssh-tunnel/main/opiran-sshtunnel && chmod +x opiran-sshtunnel && ./opiran-sshtunnel
+yum install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-tunnel/main/opiran-sshtunnel && chmod +x opiran-sshtunnel && ./opiran-sshtunnel
 ```
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
