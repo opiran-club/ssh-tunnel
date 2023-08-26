@@ -8,7 +8,7 @@
 
 
 ### ‼️ Direct SSH Tunnel Instruction ‼️ 
- <details> 👉 Click To View
+#### 👉 Click To View <details>
 
  - root previllage ( sudo -i )
  - update & upgrade server ( apt/yum update )
