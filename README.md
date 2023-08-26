@@ -58,23 +58,6 @@ yum install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-
 </details>
 
 
-#
-#
-
-## Credits
-
-credited by [OPIran](https://github.com/opiran-club)
-#
-#
-
-## Contacts
-
-[Telegram-Group](https://t,me/OPIranCluB)
-
-[Telegram-Channel](https://t,me/opiranv2rayproxy)
-           
-#
-#            
 ## Image Of Script
 <details>
  <summary><p><b> 👉 Click To View 👉 </b></p></summary>
@@ -109,3 +92,17 @@ credited by [OPIran](https://github.com/opiran-club)
 
  ```
 </details>
+
+
+## Credits
+
+credited by [OPIran](https://github.com/opiran-club)
+#
+#
+
+## Contacts
+
+[Telegram-Group](https://t,me/OPIranCluB)
+
+[Telegram-Channel](https://t,me/opiranv2rayproxy)
+           
