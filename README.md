@@ -8,7 +8,8 @@
 
 
 ### ‼️ Direct SSH Tunnel Instruction ‼️ 
-👉 Click To View <details>
+👇 Click To View 👇
+<details>
 
  - root previllage ( sudo -i )
  - update & upgrade server ( apt/yum update )
@@ -28,8 +29,8 @@ yum install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-
 
 
 ### ‼️ Reverse SSH Tunnel Instruction ‼️ 
-<b> 👉 Click To View <b> <details>
-  
+👇 Click To View 👇
+  <details>
  - root previllage ( sudo -i )
  - update & upgrade server ( apt/yum update )
  
