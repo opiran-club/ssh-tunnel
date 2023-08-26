@@ -9,6 +9,7 @@ Auto script to make ssh tunnel between 2 server with related system file and cro
  #
  #
 ‼️ Direct SSH Tunnel ‼️ 
+</details>
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  - root previllage ( sudo -i )
  - update & upgrade server ( apt/yum update )
@@ -23,11 +24,13 @@ apt install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-
 ```
 yum install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-tunnel/main/opiran-direct-ssh-tunnel && chmod +x opiran-direct-ssh-tunnel && ./opiran-direct-ssh-tunnel
 ```
+</details>
 #
 #
 #
 #
 ‼️ Reverse SSH Tunnel ‼️ 
+</details>
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  
  - root previllage ( sudo -i )
@@ -48,6 +51,7 @@ apt install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-
 ```
 yum install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-tunnel/main/opiran-reverse-ssh-tunnel && chmod +x opiran-reverse-ssh-tunnel && ./opiran-reverse-ssh-tunnel
 ```
+</details>
 #
 #
 #
@@ -73,6 +77,7 @@ yum install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-
  ```
 
  ```
+</details>
 #
 #
 #
@@ -93,9 +98,11 @@ yum install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-
 #
 
 #### screen shots Of Script
+</details>
 
 [<img src="https://img4.teletype.in/files/7a/37/7a3797d4-b5b5-439f-84eb-d5b4b6109110.jpeg" width="50%">](https://www.you-tech.win/)
 
 [<img src="https://img3.teletype.in/files/a6/20/a620791f-0923-48a9-b4d5-f5d54cd53b51.jpeg" width="50%">](https://www.you-tech.win/)
 
 [<img src="https://img1.teletype.in/files/01/70/017049f5-02b4-4721-a3f0-1da5cf7d23e8.jpeg" width="50%">](https://www.you-tech.win/)
+</details>
