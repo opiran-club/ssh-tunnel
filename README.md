@@ -10,6 +10,7 @@ Auto script to make ssh tunnel between 2 server with related system file and cro
  #
 ‼️ Direct SSH Tunnel ‼️ 
 </details>
+ <summary><p><b> 👉 Click To View <b></b></p></summary>
 
  - root previllage ( sudo -i )
  - update & upgrade server ( apt/yum update )
@@ -30,7 +31,7 @@ yum install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-
 #
 ‼️ Reverse SSH Tunnel ‼️ 
 </details>
-
+ <summary><p><b> 👉 Click To View</b></p></summary>
  
  - root previllage ( sudo -i )
  - update & upgrade server ( apt/yum update )
