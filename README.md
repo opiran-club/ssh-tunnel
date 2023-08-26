@@ -58,9 +58,8 @@ yum install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-
 ## Credits
 
 credited by [OPIran](https://github.com/opiran-club)
-
-
-              
+**
+**
 
 ## Contacts
 
