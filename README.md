@@ -58,8 +58,8 @@ yum install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-
 ## Credits
 
 credited by [OPIran](https://github.com/opiran-club)
-**
-**
+#
+#
 
 ## Contacts
 
@@ -82,7 +82,6 @@ credited by [OPIran](https://github.com/opiran-club)
 
 <details>
  
- 
  <summary><p><b> 👉 Click To View <b>⚡️ 🎁 Donate to give away great projects 🎁</b></b></p></summary>
  
  ✅ USDT (ERC20)
@@ -99,12 +98,3 @@ credited by [OPIran](https://github.com/opiran-club)
 
  ```
 </details>
-#
-#
-#
-
-#
-#
-
-
-
