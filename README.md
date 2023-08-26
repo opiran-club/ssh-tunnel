@@ -6,8 +6,6 @@ Auto script to make ssh tunnel between 2 server with related system file and cro
  - create cronjob after every reboot to run the script
  #
  #
- #
- #
 ‼️ Direct SSH Tunnel ‼️ 
  - root previllage ( sudo -i )
  - update & upgrade server ( apt/yum update )
@@ -22,8 +20,6 @@ apt install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-
 ```
 yum install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-tunnel/main/opiran-direct-ssh-tunnel && chmod +x opiran-direct-ssh-tunnel && ./opiran-direct-ssh-tunnel
 ```
-#
-#
 #
 #
 ‼️ Reverse SSH Tunnel ‼️ 
@@ -47,17 +43,12 @@ yum install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-
 ```
 #
 #
-#
-#
 
 ####credited by [OPIran](https://github.com/opiran-club)
 
 [Telegram-Group](https://t,me/OPIranCluB)
 
 [Telegram-Channel](https://t,me/opiranv2rayproxy)
-#
-#
-#
 #
 #
 
