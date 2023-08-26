@@ -8,8 +8,8 @@
 
 
 ### ‼️ Direct SSH Tunnel Instruction ‼️ 
-<details>
-<p><b> 👉 Click To View </b></p>
+<details><p><b> 👉 Click To View </b></p>
+
  - root previllage ( sudo -i )
  - update & upgrade server ( apt/yum update )
          
