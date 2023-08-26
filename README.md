@@ -1,13 +1,15 @@
-Direct/Reverse ssh-tunnel
+#### Direct/Reverse ssh-tunnel
 
-Auto script to make ssh tunnel between 2 server with related system file and cronjob  (direct tunnel) and (reverse tunnel)
+##### Auto script to make ssh tunnel between 2 server with related system file and cronjob  (direct tunnel) and (reverse tunnel)
  - make system file
  - generate key and copy to 2nd server
  - create cronjob after every reboot to run the script
- #
- #
+
+
+
 ### ‼️ Direct SSH Tunnel ‼️ 
 <details>
+ <summary><p><b> 👉 Click To View <b>⚡️
  - root previllage ( sudo -i )
  - update & upgrade server ( apt/yum update )
          
@@ -22,10 +24,13 @@ apt install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-
 yum install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-tunnel/main/opiran-direct-ssh-tunnel && chmod +x opiran-direct-ssh-tunnel && ./opiran-direct-ssh-tunnel
 ```
 </details>
-#
-#
+
+
+
 ### ‼️ Reverse SSH Tunnel ‼️ 
 <details>
+ <summary><p><b> 👉 Click To View <b>⚡️
+  
  - root previllage ( sudo -i )
  - update & upgrade server ( apt/yum update )
  
@@ -45,11 +50,12 @@ apt install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-
 yum install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-tunnel/main/opiran-reverse-ssh-tunnel && chmod +x opiran-reverse-ssh-tunnel && ./opiran-reverse-ssh-tunnel
 ```
 </details>
-#
-#
+
+
 
 #### Credits
 <details>
+<summary><p><b> 👉 Click To View <b>⚡️
 
 credited by [OPIran](https://github.com/opiran-club)
 
@@ -57,11 +63,11 @@ credited by [OPIran](https://github.com/opiran-club)
 
 [Telegram-Channel](https://t,me/opiranv2rayproxy)
 </details>
-#
-#
+
 
 #### Image Of Script
 <details>
+<summary><p><b> 👉 Click To View <b>⚡️
 
 [<img src="https://img4.teletype.in/files/7a/37/7a3797d4-b5b5-439f-84eb-d5b4b6109110.jpeg" width="50%">](https://www.you-tech.win/)
 
