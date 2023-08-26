@@ -7,9 +7,9 @@
 
 
 
-### ‼️ Direct SSH Tunnel ‼️ 
+### ‼️ Direct SSH Tunnel Instruction ‼️ 
+<b> 👉 Click To View <b>
 <details>
- <b> 👉 Click To View <b>
  - root previllage ( sudo -i )
  - update & upgrade server ( apt/yum update )
          
@@ -27,9 +27,9 @@ yum install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-
 
 
 
-### ‼️ Reverse SSH Tunnel ‼️ 
-<details>
+### ‼️ Reverse SSH Tunnel Instruction ‼️ 
 <b> 👉 Click To View <b>
+<details>
   
  - root previllage ( sudo -i )
  - update & upgrade server ( apt/yum update )
@@ -52,6 +52,9 @@ yum install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-
 </details>
 
 
+#
+#
+#
 
 #### Credits
 
@@ -62,9 +65,9 @@ credited by [OPIran](https://github.com/opiran-club)
 [Telegram-Group](https://t,me/OPIranCluB)
 
 [Telegram-Channel](https://t,me/opiranv2rayproxy)
-
-
-
+           
+             
+             
 #### Image Of Script
 
 [<img src="https://img4.teletype.in/files/7a/37/7a3797d4-b5b5-439f-84eb-d5b4b6109110.jpeg" width="50%">](https://www.you-tech.win/)
@@ -72,9 +75,9 @@ credited by [OPIran](https://github.com/opiran-club)
 [<img src="https://img3.teletype.in/files/a6/20/a620791f-0923-48a9-b4d5-f5d54cd53b51.jpeg" width="50%">](https://www.you-tech.win/)
 
 [<img src="https://img1.teletype.in/files/01/70/017049f5-02b4-4721-a3f0-1da5cf7d23e8.jpeg" width="50%">](https://www.you-tech.win/)
-
-
-
+             
+               
+             
 #### 🎁 Donate OPIran
 
 <details>
