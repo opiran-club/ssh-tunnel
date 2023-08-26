@@ -5,27 +5,47 @@ Auto script to make ssh tunnel between 2 server with related system file and cro
  - generate key and copy to 2nd server
  - create cronjob after every reboot to run the script
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-‼️ INSTRUCTION ‼️
+
+‼️ Direct SSH Tunnel ‼️ 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  - root previllage ( sudo -i )
  - update & upgrade server ( apt/yum update )
- - Install curl ( apt/yum install curl -y )
 
 ‼️ Ubuntu & Debian
 
 ```
-apt install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-tunnel/main/opiran-sshtunnel && chmod +x opiran-sshtunnel && ./opiran-sshtunnel
+apt install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-tunnel/main/opiran-direct-ssh-tunnel && chmod +x opiran-direct-ssh-tunnel && ./opiran-direct-ssh-tunnel
 ```
 
 
 ‼️ Centos
 
 ```
-yum install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-tunnel/main/opiran-sshtunnel && chmod +x opiran-sshtunnel && ./opiran-sshtunnel
+yum install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-tunnel/main/opiran-direct-ssh-tunnel && chmod +x opiran-direct-ssh-tunnel && ./opiran-direct-ssh-tunnel
 ```
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+
+‼️ Reverse SSH Tunnel ‼️ 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+- root previllage ( sudo -i )
+ - update & upgrade server ( apt/yum update )
+
+### Ubuntu & Debian
+
+```
+apt install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-tunnel/main/opiran-reverse-ssh-tunnel && chmod +x opiran-reverse-ssh-tunnel && ./opiran-reverse-ssh-tunnel
+```
+
+
+### Centos
+
+```
+yum install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-tunnel/main/opiran-reverse-ssh-tunnel && chmod +x opiran-reverse-ssh-tunnel && ./opiran-reverse-ssh-tunnel
+```
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 credited by [OPIran](https://github.com/opiran-club)
 
 [Telegram-Group](https://t,me/OPIranCluB)
