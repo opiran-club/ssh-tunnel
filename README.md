@@ -7,9 +7,7 @@ Auto script to make ssh tunnel between 2 server with related system file and cro
  #
  #
  #
-                 
-   
- 
+ #
 ‼️ Direct SSH Tunnel ‼️ 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  - root previllage ( sudo -i )
@@ -25,10 +23,10 @@ apt install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-
 ```
 yum install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-tunnel/main/opiran-direct-ssh-tunnel && chmod +x opiran-direct-ssh-tunnel && ./opiran-direct-ssh-tunnel
 ```
-
-
-   
- 
+#
+#
+#
+#
 ‼️ Reverse SSH Tunnel ‼️ 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  
@@ -50,16 +48,49 @@ apt install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-
 ```
 yum install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-tunnel/main/opiran-reverse-ssh-tunnel && chmod +x opiran-reverse-ssh-tunnel && ./opiran-reverse-ssh-tunnel
 ```
-  
-  
+#
+#
+#
+#
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#### 🎁 Donate OPIran
+
+<details>
+ 
+ 
+ <summary><p><b> 👉 Click To View <b>⚡️ 🎁 Donate to give away great projects 🎁</b></b></p></summary>
+ 
+ ✅ USDT (ERC20)
+
+🔗 Link : 
+ ```
+
+ ```
+ 
+ ✅ TRX (TRC20)
+
+🔗 Link : 
+ ```
+
+ ```
+#
+#
+#
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#
+#
 
    credited by [OPIran](https://github.com/opiran-club)
 
 [Telegram-Group](https://t,me/OPIranCluB)
 
 [Telegram-Channel](https://t,me/opiranv2rayproxy)
-
+#
+#
+#
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#
+#
 
 #### screen shots Of Script
 
