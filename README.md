@@ -1,4 +1,4 @@
-Direct ssh-tunnel
+Direct/Reverse ssh-tunnel
 
 Auto script to make ssh tunnel between 2 server with related system file and cronjob  (direct tunnel) and (reverse tunnel)
  - make system file
@@ -6,7 +6,8 @@ Auto script to make ssh tunnel between 2 server with related system file and cro
  - create cronjob after every reboot to run the script
  #
  #
-‼️ Direct SSH Tunnel ‼️ 
+### ‼️ Direct SSH Tunnel ‼️ 
+<details>
  - root previllage ( sudo -i )
  - update & upgrade server ( apt/yum update )
          
@@ -20,9 +21,11 @@ apt install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-
 ```
 yum install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-tunnel/main/opiran-direct-ssh-tunnel && chmod +x opiran-direct-ssh-tunnel && ./opiran-direct-ssh-tunnel
 ```
+<details>
 #
 #
-‼️ Reverse SSH Tunnel ‼️ 
+### ‼️ Reverse SSH Tunnel ‼️ 
+<details>
  - root previllage ( sudo -i )
  - update & upgrade server ( apt/yum update )
  
@@ -41,6 +44,7 @@ apt install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-
 ```
 yum install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-tunnel/main/opiran-reverse-ssh-tunnel && chmod +x opiran-reverse-ssh-tunnel && ./opiran-reverse-ssh-tunnel
 ```
+<details>
 #
 #
 
