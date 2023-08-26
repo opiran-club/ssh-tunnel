@@ -23,7 +23,7 @@ apt install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-
 ```
 yum install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-tunnel/main/opiran-direct-ssh-tunnel && chmod +x opiran-direct-ssh-tunnel && ./opiran-direct-ssh-tunnel
 ```
-</details>
+</👉 Click To View>
 
 
 
