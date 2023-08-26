@@ -8,13 +8,15 @@
 
 
 ### ‼️ Direct SSH Tunnel Instruction ‼️ 
-👇 Click To View 👇
+
 <details>
 
+ <summary><p><b> 👉 Click To View 👉 </b></p></summary>
+ 
  - root previllage ( sudo -i )
  - update & upgrade server ( apt/yum update )
 
- <summary><p><b> 👉 Click To View 👉 </b></p></summary>
+
          
 #### in your local (IRAN) VPS
 ##### Ubuntu & Debian
@@ -31,8 +33,10 @@ yum install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-
 
 
 ### ‼️ Reverse SSH Tunnel Instruction ‼️ 
-👇 Click To View 👇
   <details>
+
+ <summary><p><b> 👉 Click To View 👉 </b></p></summary>
+ 
  - root previllage ( sudo -i )
  - update & upgrade server ( apt/yum update )
  
