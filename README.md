@@ -4,53 +4,52 @@ Auto script to make ssh tunnel between 2 server with related system file and cro
  - make system file
  - generate key and copy to 2nd server
  - create cronjob after every reboot to run the script
+ 
 
-
-
+   
+ 
 ‼️ Direct SSH Tunnel ‼️ 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
  - root previllage ( sudo -i )
  - update & upgrade server ( apt/yum update )
 
-## in your local (IRAN) VPS
-### Ubuntu & Debian
+#### in your local (IRAN) VPS
+##### Ubuntu & Debian
 
 ```
 apt install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-tunnel/main/opiran-direct-ssh-tunnel && chmod +x opiran-direct-ssh-tunnel && ./opiran-direct-ssh-tunnel
 ```
-
-### Centos
-
+##### Centos
 ```
 yum install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-tunnel/main/opiran-direct-ssh-tunnel && chmod +x opiran-direct-ssh-tunnel && ./opiran-direct-ssh-tunnel
 ```
 
 
+   
+ 
 ‼️ Reverse SSH Tunnel ‼️ 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-- root previllage ( sudo -i )
+ 
+ - root previllage ( sudo -i )
  - update & upgrade server ( apt/yum update )
-
-## 1) in your local (IRAN) VPS
+ 
+#### 1) in your local (IRAN) VPS
 ```
 echo "GatewayPorts yes" >> /etc/ssh/sshd_config && service ssh restart
 ```
 
 ## 2) in your Remote (Kharej) VPS
-### Ubuntu & Debian
+##### Ubuntu & Debian
 
 ```
 apt install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-tunnel/main/opiran-reverse-ssh-tunnel && chmod +x opiran-reverse-ssh-tunnel && ./opiran-reverse-ssh-tunnel
 ```
-
-
-### Centos
-
+##### Centos
 ```
 yum install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-tunnel/main/opiran-reverse-ssh-tunnel && chmod +x opiran-reverse-ssh-tunnel && ./opiran-reverse-ssh-tunnel
 ```
-
-
+  
+  
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
    credited by [OPIran](https://github.com/opiran-club)
