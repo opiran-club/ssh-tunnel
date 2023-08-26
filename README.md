@@ -13,6 +13,8 @@
 
  - root previllage ( sudo -i )
  - update & upgrade server ( apt/yum update )
+
+ <summary><p><b> 👉 Click To View 👉 </b></p></summary>
          
 #### in your local (IRAN) VPS
 ##### Ubuntu & Debian
