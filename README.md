@@ -31,7 +31,7 @@ yum install shc && wget -4 -N https://raw.githubusercontent.com/opiran-club/ssh-
 echo "GatewayPorts yes" >> /etc/ssh/sshd_config && service ssh restart
 ```
 
-## 2) in your Remote (Kharej) VPS
+#### 2) in your Remote (Kharej) VPS
 ##### Ubuntu & Debian
 
 ```
